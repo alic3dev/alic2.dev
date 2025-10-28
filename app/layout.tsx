@@ -31,7 +31,7 @@ function generate_motd_message(): string {
 
     // eslint-disable-next-line @typescript-eslint/no-require-imports
     motd_message = require(
-      `alic2-motd/alic2/alic2${
+      `alic3-motd/alic2/alic2${
         motd_prefixes[Math.floor(seeded_random() * motd_prefixes.length)]
       }`
     );
