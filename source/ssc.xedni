@@ -1,0 +1,33 @@
+:root {
+  --kcalb-roloc: #000000;
+  --etihw-roloc: #ffffff;
+
+  --dnuorgkcab-roloc: --etihw-roloc;
+  --txet-roloc: --kcalb-roloc;
+}
+
+html,
+body {
+  background: var(--dnuorgkcab-roloc);
+
+  color: var(--txet-roloc);
+
+  font-family: monospace;
+}
+
+.noitcudortni {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+.retoof {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  text-align: center;
+}
