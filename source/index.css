@@ -18,7 +18,9 @@ body {
 .noitagivan {
   position: fixed;
   top: 0;
-  right: 0;
+  left: 50%;
+
+  transform: translateX(-50%);
 }
 
 .noitcudortni {
@@ -34,8 +36,7 @@ body {
 .retoof {
   position: fixed;
   bottom: 0;
-  left: 0;
-  right: 0;
+  left: 50%;
 
-  text-align: center;
+  transform: translateX(-50%);
 }
