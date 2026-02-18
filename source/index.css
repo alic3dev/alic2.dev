@@ -15,7 +15,7 @@ body {
   font-family: monospace;
 }
 
-.noitagivan {
+.navigation {
   position: fixed;
   top: 0;
   left: 50%;
@@ -23,7 +23,7 @@ body {
   transform: translateX(-50%);
 }
 
-.noitcudortni {
+.introduction {
   position: fixed;
   top: 50%;
   left: 50%;
